@@ -1,0 +1,177 @@
+body {
+    font-family: 'Raleway', sans-serif;
+    width: 100%;
+}
+
+.game-schedule {
+    display: flex
+}
+
+.top {
+    height: 50px;
+}
+
+.back-button,
+.livechat-button {
+    width: 100%;
+    border-radius: 15px;
+}
+
+.schedule-title {
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2%;
+    margin-top: 2%;
+}
+
+.t-head {
+    border-radius: 15px;
+}
+
+.main-buttons {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    width: 100%;
+    height: 650px;
+}
+
+.main-buttons-top {
+    width: 100%;
+    padding: 1%;
+}
+
+.main-buttons-bottom {
+    width: 100%;
+    padding: 1%;
+}
+
+.weekly-button,
+.maps-button,
+.schedule-button,.chat-button{
+    height: 300px
+}
+
+.responsive,
+.logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    height: auto;
+    z-index: 1;
+}
+
+.image {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    position: absolute;
+    height: 665px;
+    width: 100%;
+}
+
+.up_next-logo,
+.maps-logo,
+.schedule-logo,
+.chat-logo {
+    width: 60%;
+    height: auto;
+}
+
+.map-buttons,
+.filter-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 100%;
+    height: 571px;
+}
+
+.map-buttons-all,
+.filter-buttons-all {
+    width: 100%;
+    padding: 1%;
+}
+
+.location1-button,
+.location2-button,
+.location3-button,
+.location4-button,
+.location5-button,
+.location6-button {
+    width: 47.3%;
+    height: 181px;
+    margin: 1%;
+    font-size: 12pt;
+}
+
+.u1-button,
+.u2-button,
+.u3-button,
+.u4-button,
+.u5-button,
+.u6-button,
+.all-button {
+    width: 100%;
+    height: 12.9%;
+}
+
+.u1-button,
+.u2-button,
+.u3-button,
+.u4-button,
+.u5-button,
+.u6-button {
+    margin-bottom: 2%
+}
+
+p {
+    width: 100%;
+}
+
+.login {
+    width: 100%
+}
+
+@media only screen and (min-device-width: 400px) {
+    .logo {
+        width: 20%;
+        margin-top: 5%;
+    }
+
+    .up_next-logo,
+    .maps-logo,
+    .schedule-logo,
+    .chat-logo {
+        width: 30%;
+        height: auto;
+    }
+
+    .location1-button,
+    .location2-button,
+    .location3-button,
+    .location4-button,
+    .location5-button,
+    .location6-button {
+        width: 47.3%;
+        height: 158px;
+        margin: 1%;
+        font-size: 12pt;
+    }
+
+    .u1-button,
+    .u2-button,
+    .u3-button,
+    .u4-button,
+    .u5-button,
+    .u6-button,
+    .all-button {
+        width: 100%;
+        height: 10%;
+    }
+}
